@@ -1,0 +1,81 @@
+p {
+    margin: 0;
+}
+.content {
+    padding: 0 15% 18%;
+    font-size: 13px;
+}
+.register-form {
+    margin-top: 60px;
+    position: relative;
+}
+.register-form p {
+    text-align: left;
+    color: gray;
+}
+.register-input {
+    border: none;
+    border-bottom: 1px solid #c5c5c5;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 50px;
+    outline:none;
+}
+.e-mail,.password {
+    position: absolute;
+    transition: all 0.5s;
+}
+.e-mail {
+    top: 5px;
+}
+.password {
+    top: 75px;
+}
+.register,.login {
+    width: 100%;
+    padding: 14px;
+    background-color: #ac975e;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.have-number {
+    margin-top: 30px;
+    border-bottom: 1px dashed #bebebe;
+    padding-bottom: 40px;
+}
+.have-number a {
+    color: #ac975e;
+}
+.about {
+    margin-top: 20px;
+}
+.about img {
+    width: 40px;
+    margin: 10px;
+}
+.check-box {
+    width: 16px;
+    height: 16px;
+    vertical-align: sub;
+}
+.accept {
+    margin-top: 40px;
+}
+.service {
+    color: #ac975e;
+    text-decoration: underline;
+}
+.bg img {
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+}
+#login,#register {
+    color: #ac975e;
+}
+.login,.register-p {
+    display: none;
+}

@@ -1,0 +1,35 @@
+header {
+    background-color: transparent;
+    box-shadow: none;
+}
+body {
+    overflow: hidden;
+}
+.bg img {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: -1;
+}
+@media screen and (min-width: 458px) {
+    .bg img {width: 100%; height:auto;}
+}
+.content {
+    font-size: 35px;
+    color: white;
+}
+.content p {
+    font-size: 20px;
+}
+.camera,.edit,.puzzle {
+    margin-top: 17%;
+}
+.author a {
+    position: absolute;
+    bottom: 9%;
+    font-size: 12px;
+    right: 10px;
+    color: white;
+}

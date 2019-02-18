@@ -1,0 +1,45 @@
+.search-input {
+    font-size: 14px;
+    margin-left: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+input::-webkit-input-placeholder {
+    color: #c5c5c5;
+ }
+.content {
+    padding: 25px 0 30px 15px;
+    border-bottom: 15px solid #f6f6f6;
+}
+.hot {
+    padding-bottom: 10px;
+    color: gray;
+    border-bottom: 1px solid #bababa;
+    margin: 0 0 20px;
+}
+.tag-list a {
+    color: #337ab7;
+    margin-right: 10px;
+    line-height: 30px;
+}
+#pic-list {
+    display: none;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+.user li {
+    float: left;
+    width: 32%;
+    padding: 5%;
+}
+.user li img {
+    width: 100%;
+    border-radius: 50%;
+}
+.user a {
+    color: #000;
+}
+.name {
+    margin: 10px 0;
+}

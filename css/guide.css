@@ -1,0 +1,75 @@
+img {
+    width: 100%;
+}
+.banner {
+    width: 100%;
+    position: relative;
+}
+.banner img {
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+.inspiration {
+    padding: 60% 10px 0;
+}
+.recommend-tag,.recommend-task {
+    padding: 10px;
+}
+.recommend-task {
+    padding-top: 0;
+    padding-bottom: 55px;
+}
+.title,.task-list {
+    overflow: hidden;
+}
+.inspiration img {
+    border-radius: 10px;
+}
+.more {
+    color: #ac975e;
+}
+.subtitle {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gainsboro;
+}
+.recommend-tag li {
+    width: 33.3%;
+    padding: 0 2%;
+    float: left;
+}
+.recommend-tag  img {
+    border-radius: 10px;
+}
+.tag-list {
+    overflow: hidden;
+    border-bottom: 1px solid gainsboro;
+}
+.tag-list p{
+    margin: 10px 0;
+    color: #000;
+}
+.task-list .pull-left {
+    width: 50%;
+}
+.task-list .pull-right {
+    width: 46%;
+}
+.task-list {
+    padding-bottom: 20px;
+}
+.task-list p{
+    font-size: 13px;
+    margin: 5px 0;
+}
+.task-list  img {
+    border-radius: 10px;
+}
+.task-list a h5{
+    color: #3f3f3f;
+    font-size: 15px;
+    font-weight: bold;
+}

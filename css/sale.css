@@ -1,0 +1,46 @@
+html,body {
+    height: 100%;
+}
+body {
+    background-image: url("../img/sale.jpg");
+    background-size: cover;
+    padding: 10%;
+}
+.title {
+    color: #fff;
+}
+.title h2 {
+    margin: 30px 0;
+}
+.title p {
+    line-height: 25px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    color: #fff;
+    margin-top: 80px;
+    line-height: 40px;
+}
+ul li {
+    margin-bottom: 20px;
+}
+ul i {
+    font-size: 30px;
+    margin-right: 10px;
+    vertical-align: sub;
+}
+.button {
+    padding-top: 100px;
+}
+.button a{
+    background-color: #ffbf2f;
+    padding: 4% 15%;
+    font-size: 13px;
+    color: black;
+    border-radius: 5px;
+    margin: 3%;
+}
+.button .cancel {
+    background-color: #fff;
+}

@@ -1,0 +1,49 @@
+.intro {
+    color: white;
+    background-color: #141414;
+    width: 100%;
+    height: 200px;
+}
+h3 {
+    margin: 0 0 10px;
+}
+.info {
+    position: relative;
+    top: 15%;
+}
+.line1{
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    background-color: white;
+    top: 55px;
+    transform: translate(-50%);
+}
+.article p {
+    position: absolute;
+    left: 50%;
+    top: 47px;
+    padding: 0px 10px;
+    transform: translate(-50%);
+    background-color: #141414;
+}
+.upload {
+    margin-top: 50px;
+    background-color: #ac975e;
+    border: 1px solid #ac975e;
+    padding: 8px 20px;
+    border-radius: 3px;
+}
+.pic {
+    background-color: #f6f6f6;
+    overflow: hidden;
+    padding-top: 3px;
+}
+.pic img {
+    float: left;
+    width: 98%;
+    margin: 1%;
+}
+.pic .pull-left,.pic .pull-right {
+    width: 50%;
+}

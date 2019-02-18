@@ -1,0 +1,187 @@
+ul {
+    list-style: none;
+}
+a {
+    color: gray;
+}
+header,footer {
+    background-color: #141414;
+    font-size: 20px;
+    color: white;
+    box-sizing: border-box;
+}
+header a {
+    color: #fff;
+}
+header {
+    box-shadow: 0 0 10px grey;
+    padding: 15px;
+    display: table;
+    width: 100%;
+}
+.glyphicon-search,.glyphicon-plus,.glyphicon-blackboard,.glyphicon-send {
+    margin-right: 20px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    font-size: 24px;
+    width: 100%;
+    padding: 10px 15px 5px;
+}
+footer a i {
+    color: white;
+    width: 17%;
+}
+.glyphicon-record {
+    font-size: 30px;
+}
+.footer-active {
+    color: #ac975e;
+}
+.nav-container {
+    position: absolute;
+    width: 78%;
+    height: 100%;
+    background-color: white;
+    z-index: 9999;
+    transition: all 0.5s;
+    transform: translate3d(-100%, 0, 0);
+}
+.side-top {
+    position: relative;
+    background-color: #141414;
+    overflow: hidden;
+    color: white;
+    padding: 80px 15px 15px;
+}
+.side-top .pull-left {
+    width: 75%;
+    margin-right: 5%;
+}
+.side-top .pull-right {
+    width: 20%;
+    text-align: center;
+}
+.glyphicon-upload {
+    margin-top: 30px;
+    font-size: 40px;
+    transform: rotate(90deg);
+    color: #fff;
+}
+.gray {
+    color: #d1d1d1;
+}
+.side-list {
+    margin: 30px 15px;
+    padding: 0;
+}
+.side-list i {
+    font-size: 20px;
+    margin-right: 20px;
+    vertical-align: sub;
+}
+.side-list li {
+    padding: 10px 0;
+}
+.side-list span {
+    color: #000;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.nav-bg,.notify-bg,.share-bg,.more-bg {
+    display: none;
+    position: fixed;
+    z-index: 9990;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+}
+
+.notify-box {
+    display: none;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 9999;
+    width: 250px;
+    padding: 20px;
+    background-color: white;
+    font-size: 13px;
+}
+.sure {
+    float: right;
+    color: #ac975e;
+    margin: 0;
+}
+.task-change {
+    position: relative;
+    background-color: #141414;
+    color: #fff;
+    overflow: hidden;
+}
+.task-change li{
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
+.active,.iknow {
+    color: #ac975e;
+}
+
+.line {
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background-color: #ac975e;
+    bottom: 0;
+    left: 0;
+    transition: left 0.5s;
+}
+.share-box ul {
+    padding: 25px 60px;
+    overflow: hidden;
+    border-bottom: 1px solid  #d6d6d6;
+}
+.share-box,.more-box {
+    display: none;
+    position: fixed;
+    background-color: white;
+    bottom: 0;
+    z-index: 9999;
+}
+.share-box li {
+    float: left;
+    width: 25%;
+    padding: 0 5%;
+}
+.share-box li img {
+    width: 100%;
+}
+.share-box li p {
+    margin: 10px 0 0 ;
+    font-size: 12px;
+    color: gray;
+}
+.cancel-btn {
+    color: gray;
+    padding: 15px;
+}
+.more-box {
+    width: 100%;
+}
+.more-box li {
+    padding: 13px;
+    font-size: 13px;
+    border-bottom: 1px solid gainsboro;
+}
+.more-box li:last-child {
+    border-bottom: none;
+}

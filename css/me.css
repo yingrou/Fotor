@@ -1,0 +1,89 @@
+html,body {
+    height: 100%;
+}
+body {
+    background-color: #ececec;
+}
+header {
+    background-color: transparent;
+    box-shadow: none;
+}
+img {
+    width: 100%;
+}
+.info {
+    margin-top: -56px;
+    z-index: -1;
+}
+.glyphicon-send {
+    margin-right: 20px;
+}
+.info-box {
+    position: absolute;
+    width: 50%;
+    color: white;
+    left: 10%;
+    top: 10%;
+}
+.info-box img {
+    width: 50%;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.info-box a {
+    color: #fff;
+}
+.like {
+    font-size: 13px;
+}
+.name {
+    font-size: 15px;
+    font-weight: bold;
+}
+.task-change {
+    background-color: #fff;
+    color: gray;
+}
+.none{
+    margin-top: 30px;
+    color: gray;
+}
+#pic-list {
+    display: none;
+    padding: 1% 1% 55px;
+    overflow: hidden;
+}
+#pic-list img{
+    float: left;
+    width: 48%;
+    margin: 1%;
+}
+.collection {
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+.profile {
+    width: 40%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.side-top {
+    padding-top: 40px;
+}
+.side-top h4 {
+    font-size: 16px;
+}
+.gray {
+    font-size: 12px;
+}
+.sale {
+    position: absolute;
+    color: white;
+    padding: 5px 25px;
+    background-color: #ffbc25;
+    right: 0;
+    top: 15%;
+    border-radius: 15px 0px 0px 15px;
+    z-index: 999;
+}

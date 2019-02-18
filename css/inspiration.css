@@ -1,0 +1,23 @@
+.title {
+    font-size: 15px;
+    margin-left: 20px;
+    vertical-align: text-bottom;
+}
+.tip {
+    box-shadow: none;
+}
+.task-time .pull-left {
+    color: #000;
+}
+.content {
+    padding-bottom: 0;
+}
+.task-pic {
+    padding: 2% 2% 0;
+}
+.task-time {
+    padding: 20px 10px;
+}
+.task {
+    margin-bottom: 20px;
+}
